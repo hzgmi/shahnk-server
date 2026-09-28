@@ -1,0 +1,13 @@
+name = "shahnk-api"
+main = "src/index.js"
+compatibility_date = "2024-10-01"
+compatibility_flags = ["nodejs_compat"]
+
+[vars]
+FIREBASE_PROJECT_ID = "benkuresh"
+ENVIRONMENT = "production"
+
+[[kv_namespaces]]
+binding = "RATE_LIMIT"
+id = "8e87f28a2ccf48c0aeb3bf441a90ce16"
+preview_id = "8e87f28a2ccf48c0aeb3bf441a90ce16"
